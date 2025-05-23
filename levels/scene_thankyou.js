@@ -54,7 +54,7 @@ export function registerFinalScene() {
 
 				displayLines.push(
 					add([
-						text(line, { size: 24 }),
+						text(line, { size: 21 }),
 						rightAlign
 							? pos(width() - 80, rightY)
 							: pos(80, leftY),
