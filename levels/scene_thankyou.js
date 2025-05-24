@@ -35,7 +35,7 @@ export function registerFinalScene() {
 			"github.com/Shreyas-Bhaskar",
 			"linkedin.com/in/shreyas-bhaskar",
 			"",
-			"Press SPACE or ESC to return to menu",
+			"Press ESC to return to menu",
 		]
 
 		let currentLine = 0
@@ -70,7 +70,6 @@ export function registerFinalScene() {
 			}
 		})
 
-		onKeyPress("space", () =>  location.reload())
 		onKeyPress("escape", () =>  location.reload())
 	})
 }
